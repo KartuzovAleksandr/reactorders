@@ -44,7 +44,7 @@ export default function LoginPage() {
                 Sign in
             </button>
             <div className="flex text-center text-gray-600 w-full">
-                Если не знаете никаких аккаунтов, то нажмите Назад в браузере и будете Гостем
+                Если не знаете никаких аккаунтов - см. readme.md, если нажмете Назад будете Гостем без прав
             </div>
         </form>
     );
