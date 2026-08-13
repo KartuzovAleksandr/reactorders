@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { createProduct, updateProduct, deleteProduct } from "./actions";
-import { auth } from "../../auth/auth";
+import { auth } from "@/app/auth/auth";
 import Link from "next/link";
 
 const ALLOWED_ROLES_FOR_PRODUCTS = ["ADMIN", "SALES"];

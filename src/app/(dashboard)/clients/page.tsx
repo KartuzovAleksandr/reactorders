@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { createClient, updateClient, deleteClient } from "./actions";
-import { auth } from "../../auth/auth";
+import { auth } from "@/app/auth/auth";
 import Link from "next/link";
 
 const ALLOWED_ROLES_FOR_CLIENTS = ["ADMIN", "MANAGER"];
