@@ -2,7 +2,7 @@
 
 import { prisma } from "@/lib/prisma";
 import { revalidatePath } from "next/cache";
-import { auth } from "../../auth/auth";
+import { auth } from "@/app/auth/auth";
 
 export async function createOrder(formData: FormData) {
     const session = await auth();
